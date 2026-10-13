@@ -1,0 +1,82 @@
+{
+  "ToMe (baseline)": {
+    "use_salience": false,
+    "use_adaptive": false,
+    "top1_acc": 84.1,
+    "avg_merged_total": 60.0,
+    "avg_merged_per_layer": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  "Salience only": {
+    "use_salience": true,
+    "use_adaptive": false,
+    "top1_acc": 83.95,
+    "avg_merged_total": 60.0,
+    "avg_merged_per_layer": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  "Adaptive r only": {
+    "use_salience": false,
+    "use_adaptive": true,
+    "top1_acc": 83.62,
+    "avg_merged_total": 68.75,
+    "avg_merged_per_layer": [
+      6.0,
+      5.75,
+      5.75,
+      5.75,
+      5.75,
+      5.75,
+      5.5,
+      6.0,
+      5.5,
+      5.75,
+      5.75,
+      5.5
+    ]
+  },
+  "Full AdaMerge": {
+    "use_salience": true,
+    "use_adaptive": true,
+    "top1_acc": 84.43,
+    "avg_merged_total": 47.25,
+    "avg_merged_per_layer": [
+      4.25,
+      4.75,
+      2.25,
+      2.75,
+      3.0,
+      3.75,
+      4.75,
+      4.25,
+      4.5,
+      5.5,
+      4.25,
+      3.25
+    ]
+  }
+}

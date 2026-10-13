@@ -1,0 +1,22 @@
+{
+  "ToMe (baseline)": {
+    "salience_type": "tome",
+    "top1_acc": 83.61
+  },
+  "Incoming affinity (Ours)": {
+    "salience_type": "incoming",
+    "top1_acc": 83.73
+  },
+  "Outgoing affinity": {
+    "salience_type": "outgoing",
+    "top1_acc": 84.11
+  },
+  "Attention entropy": {
+    "salience_type": "entropy",
+    "top1_acc": 83.69
+  },
+  "[CLS]-attention": {
+    "salience_type": "cls",
+    "top1_acc": 83.21
+  }
+}

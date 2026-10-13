@@ -1,0 +1,35 @@
+{
+  "setting": {
+    "r": 7,
+    "training_free": true,
+    "method": "PiToMe"
+  },
+  "baseline": {
+    "acc": 85.19200000000001,
+    "flops_g": 17.44745472,
+    "throughput": 405.93788358908785
+  },
+  "pitome": {
+    "acc": 83.654,
+    "flops_g": 13.93595904,
+    "flops_reduction_pct": 20.126120035003016,
+    "throughput": 475.4561803191578,
+    "throughput_speedup": 1.171253532967719,
+    "avg_token_counts": [
+      197.0,
+      190.0,
+      183.0,
+      176.0,
+      169.0,
+      162.0,
+      155.0,
+      148.0,
+      141.0,
+      134.0,
+      127.0,
+      120.0,
+      113.0
+    ],
+    "total_merged": 84.0
+  }
+}

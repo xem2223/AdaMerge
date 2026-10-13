@@ -1,0 +1,36 @@
+{
+  "setting": {
+    "model": "vit_small_patch16_224",
+    "r": 7,
+    "training_free": true,
+    "method": "ToMe"
+  },
+  "baseline": {
+    "acc": 81.39,
+    "flops_g": 4.540695552,
+    "throughput": 1271.2971497784456
+  },
+  "tome": {
+    "acc": 77.622,
+    "flops_g": 3.602443776,
+    "flops_reduction_pct": 20.6631729710823,
+    "throughput": 1498.8578658844626,
+    "throughput_speedup": 1.1789988407868883,
+    "avg_token_counts": [
+      197.0,
+      190.0,
+      183.0,
+      176.0,
+      169.0,
+      162.0,
+      155.0,
+      148.0,
+      141.0,
+      134.0,
+      127.0,
+      120.0,
+      113.0
+    ],
+    "total_merged": 84.0
+  }
+}

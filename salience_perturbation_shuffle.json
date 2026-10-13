@@ -1,0 +1,87 @@
+{
+  "setting": {
+    "perturb_frac": 0.1,
+    "perturb_type": "shuffle",
+    "layers": [
+      0,
+      3,
+      7,
+      11
+    ]
+  },
+  "baseline": {
+    "top1_acc": 86.0,
+    "mean_confidence": 0.7579552761986852,
+    "n": 1000
+  },
+  "layers": {
+    "0": {
+      "top_salience": {
+        "confidence_drop_mean": 0.007026891700923443,
+        "confidence_drop_std": 0.05739847258058632,
+        "flip_rate_pct": 2.0,
+        "gt_top1_acc_pct": 85.39999999999999
+      },
+      "bottom_salience": {
+        "confidence_drop_mean": 0.0042848895192146306,
+        "confidence_drop_std": 0.046619333580839764,
+        "flip_rate_pct": 1.6,
+        "gt_top1_acc_pct": 85.6
+      },
+      "top_minus_bottom_drop": 0.0027420021817088124,
+      "drop_ratio_top_over_bottom": 1.6399236595046187,
+      "n": 1000
+    },
+    "3": {
+      "top_salience": {
+        "confidence_drop_mean": 0.0042633887603878975,
+        "confidence_drop_std": 0.03390753205349108,
+        "flip_rate_pct": 1.2,
+        "gt_top1_acc_pct": 85.9
+      },
+      "bottom_salience": {
+        "confidence_drop_mean": 0.00357335364818573,
+        "confidence_drop_std": 0.03469811061438882,
+        "flip_rate_pct": 1.7999999999999998,
+        "gt_top1_acc_pct": 85.7
+      },
+      "top_minus_bottom_drop": 0.0006900351122021676,
+      "drop_ratio_top_over_bottom": 1.1931057432707546,
+      "n": 1000
+    },
+    "7": {
+      "top_salience": {
+        "confidence_drop_mean": -0.024995033390820025,
+        "confidence_drop_std": 0.0729425929728727,
+        "flip_rate_pct": 3.2,
+        "gt_top1_acc_pct": 85.1
+      },
+      "bottom_salience": {
+        "confidence_drop_mean": -0.025168222203850746,
+        "confidence_drop_std": 0.03996123939822564,
+        "flip_rate_pct": 1.5,
+        "gt_top1_acc_pct": 85.7
+      },
+      "top_minus_bottom_drop": 0.00017318881303072034,
+      "drop_ratio_top_over_bottom": -2499503.3390820026,
+      "n": 1000
+    },
+    "11": {
+      "top_salience": {
+        "confidence_drop_mean": -0.017469997875392437,
+        "confidence_drop_std": 0.03164801199666081,
+        "flip_rate_pct": 1.0999999999999999,
+        "gt_top1_acc_pct": 86.0
+      },
+      "bottom_salience": {
+        "confidence_drop_mean": -0.0008706506714224816,
+        "confidence_drop_std": 0.025273641293752282,
+        "flip_rate_pct": 1.0999999999999999,
+        "gt_top1_acc_pct": 86.0
+      },
+      "top_minus_bottom_drop": -0.016599347203969956,
+      "drop_ratio_top_over_bottom": -1746999.7875392437,
+      "n": 1000
+    }
+  }
+}

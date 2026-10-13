@@ -1,0 +1,22 @@
+{
+  "0.5%": {
+    "subset_ratio": 0.005,
+    "n_images_approx": 6405,
+    "top1_acc": 84.96
+  },
+  "1.0%": {
+    "subset_ratio": 0.01,
+    "n_images_approx": 12810,
+    "top1_acc": 85.0
+  },
+  "2.0%": {
+    "subset_ratio": 0.02,
+    "n_images_approx": 25620,
+    "top1_acc": 84.97
+  },
+  "5.0%": {
+    "subset_ratio": 0.05,
+    "n_images_approx": 64050,
+    "top1_acc": 84.94
+  }
+}

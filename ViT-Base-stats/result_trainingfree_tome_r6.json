@@ -1,0 +1,35 @@
+{
+  "setting": {
+    "r": 6,
+    "training_free": true,
+    "method": "ToMe"
+  },
+  "baseline": {
+    "acc": 85.19200000000001,
+    "flops_g": 17.44745472,
+    "throughput": 405.0658856125294
+  },
+  "tome": {
+    "acc": 83.666,
+    "flops_g": 14.432937984,
+    "flops_reduction_pct": 17.27768768784631,
+    "throughput": 483.093722213011,
+    "throughput_speedup": 1.1926299877919615,
+    "avg_token_counts": [
+      197.0,
+      191.0,
+      185.0,
+      179.0,
+      173.0,
+      167.0,
+      161.0,
+      155.0,
+      149.0,
+      143.0,
+      137.0,
+      131.0,
+      125.0
+    ],
+    "total_merged": 72.0
+  }
+}

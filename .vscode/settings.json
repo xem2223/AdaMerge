@@ -1,0 +1,14 @@
+{
+    "files.watcherExclude": {
+        "**/cc3m_extracted/**": true,
+        "**/cc3m/**": true,
+        "**/*.tar": true
+    },
+    "files.exclude": {
+        "**/cc3m_extracted/**": true
+    },
+    "search.exclude": {
+        "**/cc3m_extracted/**": true,
+        "**/cc3m/**": true
+    }
+}

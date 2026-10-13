@@ -1,0 +1,37 @@
+{
+  "setting": {
+    "r": 14,
+    "delay_layer": 6,
+    "window_size": 4,
+    "training_free": true,
+    "method": "DSM"
+  },
+  "baseline": {
+    "acc": 85.19200000000001,
+    "flops_g": 17.44745472,
+    "throughput": 412.57182316030674
+  },
+  "dsm": {
+    "acc": 83.976,
+    "flops_g": 15.77505792,
+    "flops_reduction_pct": 9.585333946062246,
+    "throughput": 451.2192987648403,
+    "throughput_speedup": 1.0936745396437724,
+    "avg_token_counts": [
+      197.0,
+      197.0,
+      197.0,
+      197.0,
+      197.0,
+      197.0,
+      197.0,
+      181.0,
+      167.0,
+      153.0,
+      139.0,
+      125.0,
+      111.0
+    ],
+    "total_merged": 86.0
+  }
+}

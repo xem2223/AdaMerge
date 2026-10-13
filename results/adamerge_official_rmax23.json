@@ -1,0 +1,58 @@
+{
+  "setting": {
+    "data_dir": "./data",
+    "r_max": 23,
+    "alpha": 3.0,
+    "stats": "stats/official_rmax23_pass2.json",
+    "no_prop_attn": false,
+    "collect_stats": false,
+    "stats_out": "stats/official_stats.json",
+    "subset": 0.01,
+    "seed": 42,
+    "batch_size": 64,
+    "num_workers": 4,
+    "model_name": "vit_base_patch16_224.augreg2_in21k_ft_in1k",
+    "pretrained": true,
+    "checkpoint": null,
+    "throughput_runs": 200,
+    "warmup": 50,
+    "output": "results/adamerge_official_rmax23.json"
+  },
+  "implementation": "AdaMerge on official-ToMe machinery (K-metric, size, prop-attn, attn-MLP position)",
+  "adamerge_official": {
+    "top1_acc": 83.31,
+    "flops_g": 11.7123059613696,
+    "flops_reduction_pct": 32.87097660185474,
+    "throughput_img_s": 533.5544401839942,
+    "avg_block_output_counts": [
+      197.0,
+      186.48,
+      175.32,
+      165.0,
+      154.36,
+      144.36,
+      133.7,
+      123.52,
+      113.5,
+      103.28,
+      93.98,
+      87.18,
+      81.48
+    ],
+    "avg_r_per_layer": [
+      10.52,
+      11.16,
+      10.32,
+      10.64,
+      10.0,
+      10.66,
+      10.18,
+      10.02,
+      10.22,
+      9.3,
+      6.8,
+      5.7
+    ],
+    "total_merged_tokens": 115.52
+  }
+}
